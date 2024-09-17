@@ -70,7 +70,7 @@ json-ld-expansion = { path = "crates/expansion", version = "0.21.1" }
 json-ld-compaction = { path = "crates/compaction", version = "0.21.1" }
 json-ld-serialization = { path = "crates/serialization", version = "0.21.1" }
 json-ld-testing = { path = "crates/testing" }
-json-syntax = "0.12"
+json-syntax = { version = "0.12", git = "https://github.com/muttleyxd/json-syntax.git", rev = "6152a805918203660319dae4e063bc5b3ae55f1e" }
 iref = "3.1.2"
 static-iref = "3.0"
 langtag = "0.4"
@@ -90,4 +90,4 @@ indexmap = "2.0"
 iref-enum = "3.0"
 async-std = "1.12"
 
-linked-data = "0.1"
+linked-data = { version = "0.1", git = "https://github.com/muttleyxd/linked-data-rs.git", rev = "021fa1b414a50ed8387aa911191c4100be39d574" }
